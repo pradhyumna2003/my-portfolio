@@ -22,7 +22,7 @@ I am a BTech student in Computer Science and Engineering (IoTA) at SASTRA, with 
 export default function Home() {
   return (
     <>
-  <div className=" min-h-screen bg-gray-100 flex flex-col min-w-full ">
+  <div className=" min-h-screen bg-gray-100 flex flex-col w-full ">
     <Navbar />
     <div className="flex-grow flex items-center justify-center">
         <Connectcontact />
