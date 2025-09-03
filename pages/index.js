@@ -20,7 +20,7 @@ I am a BTech student in Computer Science and Engineering (IoTA) at SASTRA, gradu
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 max-w-full">
+    <div className="min-h-screen bg-gray-100 w-full">
       <Navbar />
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 lg:mx-96 gap-0">
         {cardData.map((card, index) => (
