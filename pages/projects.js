@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-    <div className="min-h-screen bg-gray-100  ">
+    <div className="min-h-screen bg-gray-100 max-w-full ">
       <div className="justify-center lg:mx-96 gap-0 self-center">
         {cardData.map((card, index) => (
           index%2==0?<CardL key={index} title={card.title} content={card.content} />:<CardR key={index} title={card.title} content={card.content} />
